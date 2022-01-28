@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LCU.ModelGenerator;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -12,10 +13,9 @@ namespace LCU
     class Program
     {
         static void Main(string[] args)
-        {
+        {  
             LCUClient client = new LCUClient();
-            client.Initialize();
-
+            client.Initialize(); 
             System.Threading.Thread.Sleep(100000);
         }
     } 

@@ -119,8 +119,9 @@ namespace LCU
          
         private void HandleMessage(object sender, MessageEventArgs args)
         {
-            if (!args.IsText) return;
-            Console.WriteLine(args.RawData);
+            if (!args.IsText) return; 
+            Console.WriteLine(args.Data);
+            Console.WriteLine("\n\n\n");
         }
 
         private void HandleDisconnect(object sender, CloseEventArgs args)
