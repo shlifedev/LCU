@@ -23,20 +23,9 @@ namespace LCU.ModelGenerator
             var response =  myReq.GetResponse();
             var stream = response.GetResponseStream();
             Encoding encode = System.Text.Encoding.GetEncoding("utf-8");
-            StreamReader readStream = new StreamReader(stream, encode); 
-            Char[] read = new Char[256];
-            // Reads 256 characters at a time.
-            int count = readStream.Read(read, 0, 256); 
-            while (count > 0)
-            {
-                // Dumps the 256 characters on a string and displays the string to the console.
-                String str = new String(read, 0, count);
-                data += str;
-                count = readStream.Read(read, 0, 256);
-            } 
-            // Releases the resources of the response.
-            response.Close();
-            // Releases the resources of the Stream.
+            StreamReader readStream = new StreamReader(stream, encode);  
+            data = readStream.ReadToEnd();
+            response.Close(); 
             readStream.Close();  
             System.IO.File.WriteAllText("api.json", data);
         }
