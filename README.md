@@ -15,7 +15,7 @@ thanks by [PoniLCU](https://github.com/Ponita0/PoniLCU/blob/master/PoniLCU/Leagu
 ### Champion Selector
  - AHI Driver based champion selector  
  - API Request based champion selector 
- - 
+ 
 ### Chat Sender
  - AHI Driver based chat sender  
  - API Request based chat sender 
