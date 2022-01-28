@@ -13,7 +13,9 @@ namespace LCU
     class Program
     {
         static void Main(string[] args)
-        {  
+        {
+            CodeGen.Generate();
+            return;
             LCUClient client = new LCUClient();
             client.Initialize(); 
             System.Threading.Thread.Sleep(100000);

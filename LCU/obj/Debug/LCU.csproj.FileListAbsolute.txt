@@ -7,3 +7,5 @@ C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.exe
 C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.pdb
 C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\websocket-sharp-standard.dll
 C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.csproj.CopyComplete
+C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\Newtonsoft.Json.xml
