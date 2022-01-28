@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DD5729BF-E79F-4E37-BDE3-2F02BB56395E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>LCU</RootNamespace>
-    <AssemblyName>LCU</AssemblyName>
+    <ProjectGuid>{76799B38-163A-438F-B502-1895CB3CCC76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LCUAPIGenerator</RootNamespace>
+    <AssemblyName>LCUAPIGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -38,8 +36,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Management" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,26 +47,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LCUClient.cs" />
-    <Compile Include="LCUClientArgsReader.cs" />
-    <Compile Include="LCUProcessInfo.cs" />
-    <Compile Include="LCUWebsocketReceiveData.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="OpenAPIUtils.cs" />
+    <Compile Include="CodeGen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LCUAPIGenerator\LCUAPIGenerator.csproj">
-      <Project>{76799b38-163a-438f-b502-1895cb3ccc76}</Project>
-      <Name>LCUAPIGenerator</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

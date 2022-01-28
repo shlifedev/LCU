@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCU", "LCU\LCU.csproj", "{DD5729BF-E79F-4E37-BDE3-2F02BB56395E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCUAPIGenerator", "LCUAPIGenerator\LCUAPIGenerator.csproj", "{76799B38-163A-438F-B502-1895CB3CCC76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DD5729BF-E79F-4E37-BDE3-2F02BB56395E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD5729BF-E79F-4E37-BDE3-2F02BB56395E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD5729BF-E79F-4E37-BDE3-2F02BB56395E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76799B38-163A-438F-B502-1895CB3CCC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76799B38-163A-438F-B502-1895CB3CCC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76799B38-163A-438F-B502-1895CB3CCC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76799B38-163A-438F-B502-1895CB3CCC76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

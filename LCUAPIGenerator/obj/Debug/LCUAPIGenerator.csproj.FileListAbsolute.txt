@@ -1,0 +1,9 @@
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\bin\Debug\LCUAPIGenerator.dll
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\bin\Debug\LCUAPIGenerator.pdb
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\bin\Debug\websocket-sharp-standard.dll
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\obj\Debug\LCUAPIGenerator.csproj.CoreCompileInputs.cache
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\obj\Debug\LCUAPIGenerator.csproj.CopyComplete
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\obj\Debug\LCUAPIGenerator.dll
+C:\Users\shlif\source\repos\LCU\LCUAPIGenerator\obj\Debug\LCUAPIGenerator.pdb
