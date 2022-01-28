@@ -1,0 +1,9 @@
+C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.csproj.AssemblyReference.cache
+C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.csproj.CoreCompileInputs.cache
+C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\LCU.exe.config
+C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\LCU.exe
+C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\LCU.pdb
+C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.exe
+C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.pdb
+C:\Users\shlif\source\repos\LCU\LCU\bin\Debug\websocket-sharp-standard.dll
+C:\Users\shlif\source\repos\LCU\LCU\obj\Debug\LCU.csproj.CopyComplete
