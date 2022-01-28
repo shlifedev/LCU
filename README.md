@@ -25,3 +25,7 @@ thanks by [PoniLCU](https://github.com/Ponita0/PoniLCU/blob/master/PoniLCU/Leagu
  - Analyze Carry Machine 
  - Analyze Troller
  - Analyze TeamFight Advantege
+
+### Utilities
+ - Auto All mute 
+ - Virtual Rune Page(do not need to purchase rune page for multiple rune pages!)
