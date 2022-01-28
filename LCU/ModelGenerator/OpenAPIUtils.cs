@@ -35,6 +35,7 @@ namespace LCU.ModelGenerator
     {
         public class SchemaInfo
         {
+           
             public SchemaInfo(JToken key, JToken desc, JToken props, JToken @enum, JToken type)
             {
                 Key = key;
@@ -78,9 +79,42 @@ namespace LCU.ModelGenerator
             }
         } 
 
+
+        static void GenerateSchemas(SchemaInfo si)
+        {
+            System.IO.Directory.CreateDirectory("Models/Schemas");
+            if (si.IsProps())
+            {
+                string code = $@"
+public class {si.Key}
+{{
+    
+}}
+";
+            }
+        }
         static void GenerateEnum(SchemaInfo si)
         {
-            Console.WriteLine(si.IsEnum());
+            System.IO.Directory.CreateDirectory("Models/Schemas/Enum");
+      
+            if (si.IsEnum())
+            {
+                var enumStrings = si.Enum.Values<string>().ToList();
+
+                var datas = string.Join(",\n", enumStrings);
+                string desc = si.HasDesc() ? $@"/// <summary>
+/// {si.Desc}
+/// </summary>" : null; 
+                string @enum = $@"
+{desc} 
+public enum {si.Key}
+{{
+{datas}
+}}";
+                System.IO.File.WriteAllText($"Models/Schemas/Enum/{si.Key}.cs", @enum);
+            }
+
+           
         }
 
         public static void Generate()

@@ -1,0 +1,16 @@
+
+ 
+public enum LolCareerStatsRankedTier
+{
+ALL,
+UNRANKED,
+IRON,
+BRONZE,
+SILVER,
+GOLD,
+PLATINUM,
+DIAMOND,
+MASTER,
+GRANDMASTER,
+CHALLENGER
+}

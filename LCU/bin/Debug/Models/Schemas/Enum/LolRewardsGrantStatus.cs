@@ -1,0 +1,9 @@
+
+ 
+public enum LolRewardsGrantStatus
+{
+PENDING_FULFILLMENT,
+PENDING_SELECTION,
+FULFILLED,
+FAILED
+}

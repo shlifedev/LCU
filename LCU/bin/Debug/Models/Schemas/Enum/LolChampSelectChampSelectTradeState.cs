@@ -1,0 +1,13 @@
+
+ 
+public enum LolChampSelectChampSelectTradeState
+{
+AVAILABLE,
+BUSY,
+INVALID,
+RECEIVED,
+SENT,
+DECLINED,
+CANCELLED,
+ACCEPTED
+}

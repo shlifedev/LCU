@@ -1,0 +1,10 @@
+
+ 
+public enum LolClashPlayerState
+{
+NO_ROSTER,
+PENDING_ROSTER,
+REGISTERED_ROSTER,
+BRACKET_ROSTER,
+ELIMINATED
+}

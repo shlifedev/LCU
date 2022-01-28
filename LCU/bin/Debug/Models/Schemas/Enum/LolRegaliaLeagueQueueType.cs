@@ -1,0 +1,12 @@
+
+ 
+public enum LolRegaliaLeagueQueueType
+{
+NONE,
+RANKED_SOLO_5x5,
+RANKED_FLEX_SR,
+RANKED_FLEX_TT,
+RANKED_TFT,
+RANKED_TFT_TURBO,
+RANKED_TFT_PAIRS
+}

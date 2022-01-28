@@ -1,0 +1,9 @@
+
+ 
+public enum LolLootGrantStatus
+{
+PENDING_FULFILLMENT,
+PENDING_SELECTION,
+FULFILLED,
+FAILED
+}
